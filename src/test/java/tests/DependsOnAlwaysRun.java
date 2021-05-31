@@ -11,10 +11,11 @@ public class DependsOnAlwaysRun {
 
     }
 
-    @Test(dependsOnMethods = {"start"} )
+    @Test(dependsOnMethods = {"start"})
     void drive(){
         System.out.println("drive car");
     }
+
     @Test(priority = 2)
     void park(){
         System.out.println("park car");

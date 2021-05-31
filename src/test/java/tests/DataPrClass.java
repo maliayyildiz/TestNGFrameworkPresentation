@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.DataProvider;
 
 public class DataPrClass {
-    @DataProvider(name = "dp")
+    @DataProvider(name = "mali")
     public Object[][] getTestData(){
 
         Object[][] data = {{"hyraitesting","hyrai6161"},{"hy@gmd.com","password1"},

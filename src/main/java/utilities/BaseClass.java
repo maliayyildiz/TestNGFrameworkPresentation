@@ -58,10 +58,10 @@ public class BaseClass {
     public void afterClass(){
         driver.quit();
     }
-    @BeforeMethod
-    public void login(){
-        ReusableMethods.login("hyraitesting@gmail.com","hyrai6161");
-    }
-    @AfterMethod
-    public static void logout(){ ReusableMethods.logout(); }
+//    @BeforeMethod
+//    public void login(){
+//        ReusableMethods.login("hyraitesting@gmail.com","hyrai6161");
+//    }
+//    @AfterMethod
+//    public static void logout(){ ReusableMethods.logout(); }
 }

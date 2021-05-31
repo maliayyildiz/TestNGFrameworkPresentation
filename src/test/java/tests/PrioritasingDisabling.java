@@ -1,10 +1,11 @@
 package tests;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class PrioritasingDisabling {
-
-    @Test(priority = 1)
+    @Ignore
+    @Test(priority = 2)
     void veli(){
         System.out.println("veli");
     }
@@ -17,7 +18,7 @@ public class PrioritasingDisabling {
     void ali(){
         System.out.println("ali");
     }
-    @Test(priority = 2, enabled = false)
+    @Test(priority = 1,enabled = false)
     void zafer(){
         System.out.println("zafer");
     }

@@ -8,7 +8,7 @@ import utilities.BaseClass;
 
 
 public class DataPr  extends BaseClass {
-//    @DataProvider(name = "dp")
+//    @DataProvider(name = "mali")
 //    public Object[][] getTestData(){
 //
 //        Object[][] data = {{"hyraitesting","hyrai6161"},{"hy@gmd.com","password1"},
@@ -17,7 +17,7 @@ public class DataPr  extends BaseClass {
 //
 //    }
 
-    @Test(dataProvider = "dp",dataProviderClass = DataPrClass.class)
+    @Test(dataProvider = "mali", dataProviderClass = DataPrClass.class)
     void dp(String username,String pass){
         driver.findElement(By.cssSelector("[href='/api/login']")).click();
         driver.findElement(By.xpath("//input[@type='email']")).clear();
