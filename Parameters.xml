@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter">
+    <test verbose="2" preserve-order="true" name="ParameterTests">
+
+        <parameter name="userName" value="hyraitesting@gmail.com"/>
+        <parameter name="pass" value="hyrai6161"/>
+
+     <classes>
+         <class name="tests.ParameterTest"></class>
+     </classes>
+
+    </test>
+</suite>

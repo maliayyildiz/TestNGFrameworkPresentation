@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="/Users/mehmetaliayyildiz/IdeaProjects/TestNGFrameworkPresentation/src/tests/java/tests/DependsOnAlwaysRun.java(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="DependsOnAlwaysRun">
+        <methods>
+          <include name="park"/>
+        </methods>
+      </class> <!-- DependsOnAlwaysRun -->
+    </classes>
+  </test> <!-- /Users/mehmetaliayyildiz/IdeaProjects/TestNGFrameworkPresentation/src/tests/java/tests/DependsOnAlwaysRun.java(failed) -->
+  <test thread-count="5" name="/Users/mehmetaliayyildiz/IdeaProjects/TestNGFrameworkPresentation/src/tests/java/tests/TestNGAnnotations.java(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGAnnotations">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNGAnnotations -->
+    </classes>
+  </test> <!-- /Users/mehmetaliayyildiz/IdeaProjects/TestNGFrameworkPresentation/src/tests/java/tests/TestNGAnnotations.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
